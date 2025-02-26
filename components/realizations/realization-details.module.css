@@ -1,0 +1,29 @@
+.realization {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   max-width: 100vw;
+   padding: 1rem 0.25rem;
+}
+.realization img {
+   max-width: 100%;
+   border: 1px solid var(--foreground);
+   border-radius: 1rem;
+   height: auto;
+   aspect-ratio: 16/9;
+}
+.goBackBtn {
+   color: var(--foreground);
+}
+@media (min-width: 768px) {
+   .realization {
+      padding: 1rem 0.75rem;
+   }
+}
+@media (min-width: 1024px) {
+   .realization {
+      padding: 1rem 1.5rem;
+   }
+}

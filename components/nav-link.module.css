@@ -1,0 +1,17 @@
+.navLinkText {
+   text-decoration: none;
+   color: var(--background);
+   font-size: 1rem;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+.navLinkTextActive {
+   text-decoration: none;
+   color: var(--primary);
+   font-size: 1rem;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+.navLinkText:hover {
+   color: var(--primary);
+}

@@ -1,0 +1,26 @@
+.main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   width: 100vw;
+   padding: 2rem 0.5rem;
+}
+.main h1,
+.main p {
+   text-align: center;
+   max-width: 800px;
+}
+.main ul {
+   list-style-type: none;
+   font-weight: 300;
+}
+.main li {
+   padding: 0.25rem 0;
+}
+@media (min-width: 768px) {
+   .main {
+      padding: 2rem 1rem;
+   }
+}

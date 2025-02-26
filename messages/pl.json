@@ -1,0 +1,73 @@
+{
+    "Footer":{
+        "contactInfo_companyName": "F.H.U. Grzegorz Dudek",
+        "contactInfo_companyAddress": "Świerklany, 44-266",
+        "contactInfo_companyAdressStreet": "Ul. Pogodna 9C",
+        "contactInfo_phone": "Telefon 609 132 785",
+        "contactInfo_email": "Email: greg_d@onet.eu",
+        "contactInfo_NIP": "NIP: 651 157 91 74"
+    },
+    "MainHeader": {
+        "refrigeration": "Chłodnictwo",
+        "ventilation": "Wentylacja",
+        "AC": "Klimatyzacja",
+        "contact": "Kontakt",
+        "realizations": "Realizacje"
+    },
+    "Hero": {
+        "title": "Profesjonalne instalacje chłodnictwa i wentylacji",
+        "subtitle": "Nasza firma specjalizuje się w instalacji systemów chłodniczych, wentylacyjnych oraz klimatyzacyjnych...",
+        "primaryButton": "Dowiedz się więcej",
+        "secondaryButton": "Skontaktuj się"
+    },
+    "Services": {
+        "title": "Nasze Główne Usługi",
+        "subtitle": "Oferujemy kompleksowe rozwiązania w zakresie chłodnictwa, wentylacji i instalacji ogrzewania...",
+        "refrigeration_title": "Chłodnictwo",
+        "refrigeration_subtitle": "Oferujemy komory chłodnicze przemysłowe mroźnicze stworzone według wymagań klienta.",
+        "ventilation_title": "Wentylacja",
+        "ventilation_subtitle": "Oferujemy nowoczesne rozwiązania wentylacyjne.",        
+        "AC_title": "Klimatyzacja",
+        "AC_subtitle": "Dzięki szerokiemu wyborowi produktów renomowanych marek jesteśmy w stanie dobrać idealne rozwiązanie które sprosta twoim oczekiwaniom.",
+        "primaryButton": "Dowiedz się więcej",
+        "secondaryButton": "Skontaktuj się"
+    },
+    "Realizations": {
+        "title": "Realizacje"
+    },
+    "RealizationsDetails": {
+        "goback": "Powrót"
+    },
+    "Service": {
+        "title": "Serwis",
+        "lead": "Klimatyzatory optymalizują temperature otoczenia dlatego istotne jest odpowiednie ich serwisowanie dla zapewnienia prawidłowej wydajności oraz wysokiej jakości powietrza w pomieszczeniach.",
+        "lead2": "Regularne przeglądy które znajdują się w naszej palecie usług zapewniają dłuższą żywotność urządzeń i ich sprawne działanie. W razie wystąpienia usterek i awarii, podczas pracy urządzeń oferujemy naprawy zarówno gwarancyjne jak i pogwarancyjne."
+    },
+    "ChlodnictwoPage": {
+        "title": "Chłodnictwo",
+        "lead1": "Oferujemy komory chłodnicze przemysłowe mroźnicze stworzone według wymagań klienta. Specjalizujemy się także w montażu obsłudze i serwisie sklepowych mebli chłodniczych typu lady i regały chłodnicze.",
+        "lead2": "Prace wykonywane są na komponentach znanych i renomowanych firm co gwarantuje wysoką jakość usług."
+    },
+    "WentylacjaPage": {
+        "title": "Wentylacja",
+        "lead1": "Odpowiednia wentylacja mechaniczna jest konieczna aby zapewnić wysoki komfort użytkowania pomieszczeń. Przy doborze wentylacji konieczne jest:",
+        "listItem1": "Dobranie odpowiedniej wydajności wentylatora dla danego pomieszczenia.",
+        "listItem2": "Dobranie wentylatora wytwarzającego odpowiednie ciśnienie.",
+        "listItem3": "Odpowiednie usytuowanie wentylatora w pomieszczeniu.",
+        "listItem4": "Dobranie odpowiedniego systemu kanałów wentylacji.",
+        "lead2": "Niewłasciwe umiejscowienie może powodować obniżenie wydajności i jakości pracy urządzenia."
+    },
+    "KlimatyzacjaPage": {
+        "title": "Klimatyzacja",
+        "lead1": "Klimatyzacja na stałe weszła w codzienne życie ludzi na całym świecie. Pozwala na uzyskanie komfortu termicznego poprzez personalizacje działania skupiającej się na indywidualnych potrzebach klientów. Obecne klimatyzatory poza podstawową funkcją chłodzenia posiadają również opcje grzania, osuszania oraz oczyszczania powietrza. Klimatyzacje w zależności od pomieszczenia mogą mieć różne rodzaje. Najpopularniejsze są klimatyzacje ścienne oprócz nich na rynku dostępne są także klimatyzacje kasetowe, kanałowe z rozprowadzeniem chłodzonego powietrza, podsufitowe oraz konsole.",
+        "lead2": "Dzięki szerokiemu wyborowi produktów renomowanych marek jesteśmy w stanie dobrać idealne rozwiązanie które sprosta twoim oczekiwaniom."
+    },
+    "LogosGrid": {
+        "logoMessage": "Inne"
+    },
+    "Kontakt": {
+        "title": "Kontakt",
+        "subtitle_contactDetails": "Dane Kontaktowe",
+        "subtitle_googleMaps": "Siedziba Firmy"
+    }
+}

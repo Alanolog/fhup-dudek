@@ -1,0 +1,26 @@
+.mainGrid {
+   display: grid;
+   gap: 1rem;
+   grid-template-columns: 1fr 1fr;
+   justify-content: center;
+   align-items: center;
+}
+.mainGrid img {
+   border: 1px solid var(--foreground);
+   border-radius: 1rem;
+   padding: 0.25rem;
+   margin: 0;
+}
+.mainGrid p {
+   font-size: 1rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   border-radius: 1rem;
+   padding: 0.25rem;
+   margin: 0;
+}
+@media (min-width: 768px) {
+   .mainGrid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+}

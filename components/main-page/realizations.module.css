@@ -1,0 +1,33 @@
+.realizations {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   padding: 2rem 0.5rem;
+}
+.imageGrid {
+   display: grid;
+   gap: 1rem;
+   grid-template-columns: 1fr;
+}
+.imageGrid img {
+   border-radius: 1rem;
+   border: 1px solid var(--foreground);
+   transition: all 0.3s;
+}
+.imageGrid img:hover,
+.imageGrid img:focus,
+.imageGrid img:active {
+   transform: scale(1.1);
+}
+@media (min-width: 768px) {
+   .imageGrid {
+      grid-template-columns: 1fr 1fr;
+   }
+}
+@media (min-width: 1024px) {
+   .imageGrid {
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+}

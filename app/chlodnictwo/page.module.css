@@ -1,0 +1,28 @@
+.main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   width: 100vw;
+   padding: 2rem 0.5rem;
+}
+.main h1,
+.main p {
+   text-align: center;
+   max-width: 800px;
+}
+.imageBox {
+   display: flex;
+   gap: 1rem;
+   justify-content: center;
+   align-items: center;
+}
+.imageBox img {
+   border: 1px solid var(--foreground);
+}
+@media (min-width: 768px) {
+   .main {
+      padding: 2rem 1rem;
+   }
+}

@@ -1,0 +1,38 @@
+.service {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   padding: 1rem 1rem;
+   color: var(--background);
+   background-color: var(--foreground);
+}
+.service h2 {
+   font-size: 1.5rem;
+}
+.service article {
+   display: flex;
+   flex-direction: column-reverse;
+   gap: 1rem;
+   justify-content: center;
+}
+.service div {
+   font-size: 1.125rem;
+   max-width: 450px;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.service img {
+   border: 1px solid var(--background);
+   border-radius: 1rem;
+}
+@media (min-width: 768px) {
+   .service article {
+      flex-direction: row;
+   }
+}
