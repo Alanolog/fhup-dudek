@@ -1,6 +1,6 @@
 .hero {
    position: relative;
-   background: url("/klimatyzacja.jpg") center/cover no-repeat;
+   background: url("/background.jpg") center/cover no-repeat;
    color: var(--background);
    padding: 10rem 2rem;
    text-align: center;
@@ -9,7 +9,7 @@
    align-items: center;
    justify-content: center;
    min-height: 80vh;
-   gap: 1rem;
+   gap: 2rem;
 }
 .hero::before {
    content: "";
@@ -27,6 +27,12 @@
    position: relative;
    z-index: 2;
    max-width: 800px;
+}
+.hero h1 {
+   font-size: 1.5rem;
+}
+.hero p {
+   font-size: 1.25rem;
 }
 
 .ctaBtn {
@@ -46,5 +52,11 @@
 @media (min-width: 768px) {
    .ctaBtn {
       width: 100%;
+   }
+   .hero h1 {
+      font-size: 2rem;
+   }
+   .hero p {
+      font-size: 1.5rem;
    }
 }

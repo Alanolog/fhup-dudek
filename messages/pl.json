@@ -54,8 +54,7 @@
         "listItem1": "Dobranie odpowiedniej wydajności wentylatora dla danego pomieszczenia.",
         "listItem2": "Dobranie wentylatora wytwarzającego odpowiednie ciśnienie.",
         "listItem3": "Odpowiednie usytuowanie wentylatora w pomieszczeniu.",
-        "listItem4": "Dobranie odpowiedniego systemu kanałów wentylacji.",
-        "lead2": "Niewłasciwe umiejscowienie może powodować obniżenie wydajności i jakości pracy urządzenia."
+        "listItem4": "Dobranie odpowiedniego systemu kanałów wentylacji."
     },
     "KlimatyzacjaPage": {
         "title": "Klimatyzacja",
@@ -69,5 +68,8 @@
         "title": "Kontakt",
         "subtitle_contactDetails": "Dane Kontaktowe",
         "subtitle_googleMaps": "Siedziba Firmy"
+    },
+    "LocaleSwitch": {
+        "label": "Wybierz Język"
     }
 }

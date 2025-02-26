@@ -12,7 +12,6 @@ export default function WentylacjaPage() {
             <li>{t("listItem3")}</li>
             <li>{t("listItem4")}</li>
          </ul>
-         <p>{t("lead2")}</p>
       </main>
    );
 }

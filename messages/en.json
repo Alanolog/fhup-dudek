@@ -1,10 +1,75 @@
 {
-    "Footer":{
+    "Footer": {
         "contactInfo_companyName": "F.H.U. Grzegorz Dudek",
         "contactInfo_companyAddress": "Świerklany, 44-266",
         "contactInfo_companyAdressStreet": "Ul. Pogodna 9C",
-        "contactInfo_phone": "Phone +48 609 132 785",
+        "contactInfo_phone": "Phone: 609 132 785",
         "contactInfo_email": "Email: greg_d@onet.eu",
         "contactInfo_NIP": "NIP: 651 157 91 74"
+    },
+    "MainHeader": {
+        "refrigeration": "Refrigeration",
+        "ventilation": "Ventilation",
+        "AC": "Air Conditioning",
+        "contact": "Contact",
+        "realizations": "Projects"
+    },
+    "Hero": {
+        "title": "Professional Refrigeration and Ventilation Installations",
+        "subtitle": "Our company specializes in the installation of refrigeration, ventilation, and air conditioning systems...",
+        "primaryButton": "Learn More",
+        "secondaryButton": "Contact Us"
+    },
+    "Services": {
+        "title": "Our Main Services",
+        "subtitle": "We offer comprehensive solutions in refrigeration, ventilation, and air conditioning.",
+        "refrigeration_title": "Refrigeration",
+        "refrigeration_subtitle": "We offer industrial refrigeration and freezing chambers tailored to customer requirements.",
+        "ventilation_title": "Ventilation",
+        "ventilation_subtitle": "We provide modern ventilation solutions.",
+        "AC_title": "Air Conditioning",
+        "AC_subtitle": "With a wide selection of products from renowned brands, we can find the perfect solution to meet your expectations.",
+        "primaryButton": "Learn More",
+        "secondaryButton": "Contact Us"
+    },
+    "Realizations": {
+        "title": "Projects"
+    },
+    "RealizationsDetails": {
+        "goback": "Back"
+    },
+    "Service": {
+        "title": "Service",
+        "lead": "Air conditioners optimize ambient temperature, so proper servicing is essential to ensure efficiency and high indoor air quality.",
+        "lead2": "Regular maintenance, which is part of our service offering, ensures a longer lifespan and smooth operation of devices. In case of malfunctions or failures, we provide both warranty and post-warranty repairs."
+    },
+    "ChlodnictwoPage": {
+        "title": "Refrigeration",
+        "lead1": "We offer industrial refrigeration and freezing chambers tailored to customer requirements. We also specialize in the installation, maintenance, and servicing of refrigerated display units and counters for stores.",
+        "lead2": "Our work is performed using components from well-known and reputable companies, ensuring high-quality service."
+    },
+    "WentylacjaPage": {
+        "title": "Ventilation",
+        "lead1": "Proper mechanical ventilation is necessary to ensure a high level of comfort in rooms. When selecting a ventilation system, it is important to:",
+        "listItem1": "Choose the right fan efficiency for the given room.",
+        "listItem2": "Select a fan that generates the appropriate pressure.",
+        "listItem3": "Ensure the proper placement of the fan in the room.",
+        "listItem4": "Select the right ventilation duct system."
+    },
+    "KlimatyzacjaPage": {
+        "title": "Air Conditioning",
+        "lead1": "Air conditioning has become an integral part of daily life worldwide. It allows for thermal comfort through personalized operation tailored to individual customer needs. Modern air conditioners not only cool but also offer heating, dehumidification, and air purification functions. Depending on the room type, air conditioning systems can vary. The most popular are wall-mounted air conditioners, but there are also cassette, ducted, ceiling-mounted, and console units available on the market.",
+        "lead2": "With a wide selection of products from renowned brands, we can find the perfect solution to meet your expectations."
+    },
+    "LogosGrid": {
+        "logoMessage": "Other"
+    },
+    "Kontakt": {
+        "title": "Contact",
+        "subtitle_contactDetails": "Contact Details",
+        "subtitle_googleMaps": "Company Location"
+    },
+    "LocaleSwitch": {
+        "label": "Choose Language"
     }
 }
