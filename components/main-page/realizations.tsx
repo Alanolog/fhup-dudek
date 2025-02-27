@@ -9,7 +9,7 @@ import realizationSmall5 from "@/assets/realizations_small/realizations_5_small.
 import realizationSmall6 from "@/assets/realizations_small/realizations_6_small.png";
 import realizationSmall7 from "@/assets/realizations_small/realizations_7_small.png";
 import realizationSmall8 from "@/assets/realizations_small/realizations_8_small.png";
-import realizationSmall9 from "@/assets/realizations_small/realizations_9_small.png";
+import realizationSmall10 from "@/assets/realizations_small/realizations_10_small.png";
 import NavLink from "../nav-link";
 const Realizations = () => {
    const t = useTranslations("Realizations");
@@ -41,8 +41,8 @@ const Realizations = () => {
             <NavLink href="/realizacje/8">
                <Image src={realizationSmall8} alt="" />
             </NavLink>
-            <NavLink href="/realizacje/9">
-               <Image src={realizationSmall9} alt="" />
+            <NavLink href="/realizacje/10">
+               <Image src={realizationSmall10} alt="" />
             </NavLink>
          </div>
       </section>

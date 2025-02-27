@@ -1,4 +1,6 @@
-.main {
+.main .container {
+   position: relative;
+   color: var(--foreground);
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -6,6 +8,9 @@
    gap: 1rem;
    width: 100vw;
    padding: 2rem 0.5rem;
+}
+.main p {
+   font-size: 1.125rem;
 }
 .main h1,
 .main p {
@@ -28,6 +33,7 @@
 }
 .imageBox img {
    border: 1px solid var(--foreground);
+   border-radius: 1rem;
 }
 @media (min-width: 768px) {
    .main {
@@ -35,5 +41,11 @@
    }
    .imageBox {
       grid-template-columns: 1fr 1fr;
+   }
+   .main p {
+      font-size: 1.25rem;
+   }
+   .main h1 {
+      font-size: 2.25rem;
    }
 }

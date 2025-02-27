@@ -15,16 +15,16 @@
         "realizations": "Projects"
     },
     "Hero": {
-        "title": "Professional Refrigeration and Ventilation Installations",
-        "subtitle": "Our company specializes in the installation of refrigeration, ventilation, and air conditioning systems...",
-        "primaryButton": "Learn More",
-        "secondaryButton": "Contact Us"
+        "title": "Professional Air Conditioning and Ventilation Installations.",
+        "subtitle": "Our company specializes in the installation of refrigeration, ventilation, and air conditioning systems.",
+        "primaryButton": "Learn more",
+        "secondaryButton": "Contact us"
     },
     "Services": {
         "title": "Our Main Services",
         "subtitle": "We offer comprehensive solutions in refrigeration, ventilation, and air conditioning.",
         "refrigeration_title": "Refrigeration",
-        "refrigeration_subtitle": "We offer industrial refrigeration and freezing chambers tailored to customer requirements.",
+        "refrigeration_subtitle": "We offer refrigeration, industrial, and freezing chambers tailored to customer requirements.",
         "ventilation_title": "Ventilation",
         "ventilation_subtitle": "We provide modern ventilation solutions.",
         "AC_title": "Air Conditioning",
@@ -41,20 +41,25 @@
     "Service": {
         "title": "Service",
         "lead": "Air conditioners optimize ambient temperature, so proper servicing is essential to ensure efficiency and high indoor air quality.",
-        "lead2": "Regular maintenance, which is part of our service offering, ensures a longer lifespan and smooth operation of devices. In case of malfunctions or failures, we provide both warranty and post-warranty repairs."
+        "lead2": "Regular maintenance, which is part of our service offering, ensures a longer lifespan and smooth operation of devices. In case of malfunctions or failures, we provide both warranty and post-warranty repairs.",
+        "logosInfo": "With a wide selection of products from renowned brands, we can find the perfect solution to meet your expectations."
     },
     "ChlodnictwoPage": {
         "title": "Refrigeration",
-        "lead1": "We offer industrial refrigeration and freezing chambers tailored to customer requirements. We also specialize in the installation, maintenance, and servicing of refrigerated display units and counters for stores.",
-        "lead2": "Our work is performed using components from well-known and reputable companies, ensuring high-quality service."
+        "lead1": "Refrigeration is a branch of technology that deals with processes of lowering and maintaining low temperatures in enclosed spaces. The primary goal of refrigeration is to remove heat from a given environment to cool it down. It covers a wide range of applications, from simple cooling systems like refrigerators and air conditioners to more complex industrial solutions such as cold storage rooms or cooling systems in production processes. The main objectives of refrigeration are not only to lower the temperature but also to control humidity and maintain optimal conditions for storing goods such as food or medicine.",
+        "lead2": "We offer refrigeration, industrial, and freezing chambers tailored to customer requirements. We also specialize in the installation, operation, and servicing of refrigerated display cases and shelving units for shops.",
+        "lead3": "The work is carried out on components from well-known and reputable companies, ensuring high-quality services as well as the reliability and durability of the offered solutions. Additionally, the applied technologies meet the highest industry standards, providing energy efficiency and optimal performance of the devices."
     },
     "WentylacjaPage": {
         "title": "Ventilation",
-        "lead1": "Proper mechanical ventilation is necessary to ensure a high level of comfort in rooms. When selecting a ventilation system, it is important to:",
+        "lead": "Ventilation is the process of exchanging air in rooms to remove pollutants, excess moisture, carbon dioxide, and other undesirable substances, as well as to supply fresh air from outside. Ventilation improves indoor air quality, enhancing the comfort and health of occupants while helping to maintain appropriate temperature and humidity levels. Ventilation systems can operate naturally (e.g., through windows or ventilation grilles) or mechanically (e.g., fans, recuperators, or air handling units).",  
+        "lead2": "Mechanical ventilation uses devices such as fans to force air circulation. It is divided into supply ventilation, which delivers fresh air to the room, and exhaust ventilation, which removes used air. Mechanical ventilation systems are often more efficient and can be integrated with heating or air conditioning systems.",
+        "listLead": "Proper mechanical ventilation is necessary to ensure a high level of comfort in rooms. When selecting a ventilation system, it is important to:",
         "listItem1": "Choose the right fan efficiency for the given room.",
         "listItem2": "Select a fan that generates the appropriate pressure.",
         "listItem3": "Ensure the proper placement of the fan in the room.",
-        "listItem4": "Select the right ventilation duct system."
+        "listItem4": "Select the right ventilation duct system.",
+        "photoAlt": "Ventilation"
     },
     "KlimatyzacjaPage": {
         "title": "Air Conditioning",
@@ -69,7 +74,12 @@
         "subtitle_contactDetails": "Contact Details",
         "subtitle_googleMaps": "Company Location"
     },
+    "NotFoundPage": {
+        "title": "Page not found!",
+        "btnText": "Go back"
+    },
     "LocaleSwitch": {
-        "label": "Choose Language"
+        "polish": "Polish",
+        "english": "English"
     }
 }

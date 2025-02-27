@@ -4,7 +4,7 @@ import "./globals.css";
 import MainHeader from "@/components/layout/main-header";
 import Footer from "@/components/layout/footer";
 import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 
 const roboto = Roboto({
    weight: ["300", "400", "500", "700"],
@@ -21,13 +21,18 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
    children,
+   params,
 }: Readonly<{
    children: React.ReactNode;
+   params: Promise<{ locale: string }>;
 }>) {
-   const locale = await getLocale();
+   const { locale } = await params;
+   const usedLocale = ["pl", "en"].includes(locale) ? locale : "pl";
+   setRequestLocale(usedLocale);
    const messages = await getMessages();
+
    return (
-      <html lang={locale}>
+      <html lang={usedLocale}>
          <body className={roboto.className}>
             <NextIntlClientProvider messages={messages}>
                <MainHeader />

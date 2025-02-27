@@ -29,6 +29,8 @@
 .navLinks {
    display: flex;
    list-style: none;
+   justify-content: center;
+   align-items: center;
    opacity: 0;
    transform: translateY(-1000%);
    padding: 0;

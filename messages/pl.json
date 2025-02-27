@@ -15,8 +15,8 @@
         "realizations": "Realizacje"
     },
     "Hero": {
-        "title": "Profesjonalne instalacje chłodnictwa i wentylacji",
-        "subtitle": "Nasza firma specjalizuje się w instalacji systemów chłodniczych, wentylacyjnych oraz klimatyzacyjnych...",
+        "title": "Profesjonalne instalacje klimatyzacji i wentylacji.",
+        "subtitle": "Nasza firma specjalizuje się w instalacji systemów chłodniczych, wentylacyjnych oraz klimatyzacyjnych.",
         "primaryButton": "Dowiedz się więcej",
         "secondaryButton": "Skontaktuj się"
     },
@@ -24,7 +24,7 @@
         "title": "Nasze Główne Usługi",
         "subtitle": "Oferujemy kompleksowe rozwiązania w zakresie chłodnictwa, wentylacji i klimatyzacji.",
         "refrigeration_title": "Chłodnictwo",
-        "refrigeration_subtitle": "Oferujemy komory chłodnicze przemysłowe mroźnicze stworzone według wymagań klienta.",
+        "refrigeration_subtitle": "Oferujemy komory chłodnicze, przemysłowe oraz mroźnicze stworzone według wymagań klienta.",
         "ventilation_title": "Wentylacja",
         "ventilation_subtitle": "Oferujemy nowoczesne rozwiązania wentylacyjne.",        
         "AC_title": "Klimatyzacja",
@@ -41,20 +41,25 @@
     "Service": {
         "title": "Serwis",
         "lead": "Klimatyzatory optymalizują temperature otoczenia dlatego istotne jest odpowiednie ich serwisowanie dla zapewnienia prawidłowej wydajności oraz wysokiej jakości powietrza w pomieszczeniach.",
-        "lead2": "Regularne przeglądy które znajdują się w naszej palecie usług zapewniają dłuższą żywotność urządzeń i ich sprawne działanie. W razie wystąpienia usterek i awarii, podczas pracy urządzeń oferujemy naprawy zarówno gwarancyjne jak i pogwarancyjne."
+        "lead2": "Regularne przeglądy które znajdują się w naszej palecie usług zapewniają dłuższą żywotność urządzeń i ich sprawne działanie. W razie wystąpienia usterek i awarii, podczas pracy urządzeń oferujemy naprawy zarówno gwarancyjne jak i pogwarancyjne.",
+        "logosInfo": "Dzięki szerokiemu wyborowi produktów renomowanych marek jesteśmy w stanie dobrać idealne rozwiązanie które sprosta twoim oczekiwaniom."
     },
     "ChlodnictwoPage": {
         "title": "Chłodnictwo",
-        "lead1": "Oferujemy komory chłodnicze przemysłowe mroźnicze stworzone według wymagań klienta. Specjalizujemy się także w montażu obsłudze i serwisie sklepowych mebli chłodniczych typu lady i regały chłodnicze.",
-        "lead2": "Prace wykonywane są na komponentach znanych i renomowanych firm co gwarantuje wysoką jakość usług."
+        "lead1": "Chłodnictwo to dziedzina techniki, która zajmuje się procesami obniżania i utrzymywania niskiej temperatury w zamkniętych przestrzeniach. Głównym celem chłodnictwa jest usuwanie ciepła z danego środowiska w celu jego schłodzenia. Obejmuje szeroki zakres zastosowań, od prostych systemów chłodzenia, takich jak lodówki i klimatyzatory, po bardziej skomplikowane rozwiązania przemysłowe, jak chłodnie czy systemy chłodzenia w procesach produkcyjnych. Główne cele chłodnictwa to nie tylko obniżenie temperatury, ale także kontrola wilgotności oraz utrzymanie pożądanych warunków dla przechowywania towarów, takich jak żywność czy leki.",
+        "lead2": "Oferujemy komory chłodnicze, przemysłowe oraz mroźnicze stworzone według wymagań klienta. Specjalizujemy się także w montażu, obsłudze i serwisie sklepowych mebli chłodniczych typu lady i regały chłodnicze.",
+        "lead3": "Prace wykonywane są na komponentach znanych i renomowanych firm, co gwarantuje wysoką jakość usług oraz niezawodność i trwałość oferowanych rozwiązań. Dodatkowo, stosowane technologie spełniają najwyższe standardy branżowe, zapewniając efektywność energetyczną i optymalne parametry pracy urządzeń."
     },
     "WentylacjaPage": {
         "title": "Wentylacja",
-        "lead1": "Odpowiednia wentylacja mechaniczna jest konieczna aby zapewnić wysoki komfort użytkowania pomieszczeń. Przy doborze wentylacji konieczne jest:",
+        "lead": "Wentylacja to proces wymiany powietrza w pomieszczeniach, mający na celu usunięcie zanieczyszczeń, nadmiaru wilgoci, dwutlenku węgla oraz innych niepożądanych substancji, a także dostarczenie świeżego powietrza z zewnątrz. Wentylacja poprawia jakość powietrza wewnątrz budynków, zwiększając komfort i zdrowie osób przebywających w pomieszczeniach oraz pomagając w utrzymaniu odpowiedniej temperatury i wilgotności. Systemy wentylacyjne mogą działać w sposób naturalny (np. przez okna, kratki wentylacyjne) lub mechaniczny (np. wentylatory, rekuperatory, centrale wentylacyjne). ",
+        "lead2": "Wentylacja mechaniczna wykorzystuje urządzenia, takie jak wentylatory, do wymuszonej cyrkulacji powietrza. Dzieli się ją na wentylację nawiewną, która dostarcza świeże powietrze do pomieszczenia i wywiewną, która służy do usuwania zużytego powietrza. Systemy wentylacji mechanicznej często są bardziej efektywne i mogą być zintegrowane z ogrzewaniem czy klimatyzacją.",
+        "listLead": "Odpowiednia wentylacja mechaniczna jest konieczna aby zapewnić wysoki komfort użytkowania pomieszczeń. Przy doborze wentylacji konieczne jest:",
         "listItem1": "Dobranie odpowiedniej wydajności wentylatora dla danego pomieszczenia.",
         "listItem2": "Dobranie wentylatora wytwarzającego odpowiednie ciśnienie.",
         "listItem3": "Odpowiednie usytuowanie wentylatora w pomieszczeniu.",
-        "listItem4": "Dobranie odpowiedniego systemu kanałów wentylacji."
+        "listItem4": "Dobranie odpowiedniego systemu kanałów wentylacji.",
+        "photoAlt": "Wentylacja"
     },
     "KlimatyzacjaPage": {
         "title": "Klimatyzacja",
@@ -69,7 +74,12 @@
         "subtitle_contactDetails": "Dane Kontaktowe",
         "subtitle_googleMaps": "Siedziba Firmy"
     },
+    "NotFoundPage": {
+        "title": "Nie znaleziono strony!",
+        "btnText": "Powrót na stronę główną"
+    },
     "LocaleSwitch": {
-        "label": "Wybierz Język"
+        "polish": "Polski",
+        "english": "Angielski"
     }
 }
