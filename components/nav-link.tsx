@@ -14,7 +14,7 @@ const NavLink: React.FC<NavProps> = ({ href, children }) => {
    locale = routing.locales.includes(locale) ? locale : routing.defaultLocale;
    return (
       <Link
-         href={`/${locale}/${href}`}
+         href={href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`}
          className={path.startsWith(href) ? styles.navLinkTextActive : styles.navLinkText}
       >
          {children}
