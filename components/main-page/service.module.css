@@ -31,16 +31,6 @@
    border: 1px solid var(--background);
    border-radius: 1rem;
 }
-.service .logoBox {
-   font-size: 1.125rem;
-   max-width: 800px;
-   display: flex;
-   flex-direction: column;
-   gap: 1rem;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-}
 @media (min-width: 768px) {
    .service article {
       flex-direction: row;

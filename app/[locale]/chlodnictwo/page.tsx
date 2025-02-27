@@ -1,8 +1,8 @@
 import { useTranslations } from "next-intl";
 import styles from "./page.module.css";
 import Image from "next/image";
-import image1 from "@/assets/realizations_small/realizations_3_small.png";
-import image2 from "@/assets/realizations_small/realizations_7_small.png";
+import image1 from "@/assets/realizations/realizations_8.jpeg";
+import image2 from "@/assets/realizations/realizations_7.jpeg";
 import image3 from "@/assets/realizations/realizations_11.png";
 import bg from "@/assets/backgrounds/chlodnictwo-bg.jpg";
 
@@ -23,8 +23,8 @@ export default function ChlodnictwoPage() {
             <p>{t("lead2")}</p>
             <Image src={image3} alt={t("title")} className={styles.resizedImage} />
             <div className={styles.imageBox}>
-               <Image src={image1} alt={t("title")} />
-               <Image src={image2} alt={t("title")} />
+               <Image src={image1} alt={t("title")} className={styles.imageBoxResizableImages} />
+               <Image src={image2} alt={t("title")} className={styles.imageBoxResizableImages} />
             </div>
             <p>{t("lead3")}</p>
          </div>

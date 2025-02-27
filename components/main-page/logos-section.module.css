@@ -1,0 +1,21 @@
+.logosSection {
+   width: 100%;
+   padding: 2rem 0.5rem;
+   height: auto;
+   color: var(--foreground);
+   background-color: var(--primary);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.logosBox {
+   font-size: 1.125rem;
+   max-width: 800px;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}

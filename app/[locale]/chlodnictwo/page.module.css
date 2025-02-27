@@ -36,7 +36,17 @@
    max-width: 800px;
    height: auto;
 }
+.imageBoxResizableImages {
+   width: 95vw;
+   max-width: 400px;
+   height: auto;
+   border: 1px solid var(--foreground);
+   border-radius: 1rem;
+}
 @media (min-width: 768px) {
+   .imageBoxResizableImages {
+      width: 46vw;
+   }
    .main {
       padding: 2rem 1rem;
    }

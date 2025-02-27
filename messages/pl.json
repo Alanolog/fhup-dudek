@@ -79,7 +79,11 @@
         "btnText": "Powrót na stronę główną"
     },
     "LocaleSwitch": {
+        "label": "Wybierz Język",
         "polish": "Polski",
         "english": "Angielski"
+    },
+    "LogosSection": {
+        "logosInfo": "Dzięki szerokiemu wyborowi produktów renomowanych marek jesteśmy w stanie dobrać idealne rozwiązanie które sprosta twoim oczekiwaniom."
     }
 }

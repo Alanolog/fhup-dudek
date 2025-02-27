@@ -79,7 +79,11 @@
         "btnText": "Go back"
     },
     "LocaleSwitch": {
+        "label": "Choose Language",
         "polish": "Polish",
         "english": "English"
+    },
+    "LogosSection": {
+        "logosInfo": "With a wide selection of products from renowned brands, we can find the perfect solution to meet your expectations."
     }
 }
