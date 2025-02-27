@@ -37,7 +37,6 @@ export default function MainHeader() {
                   priority
                />
             </NavLink>
-            {windowWidth > 1023 ? <LocaleSwitch /> : null}
             {/* MENU DESKTOP */}
             <ul className={`${styles.navLinks} ${menuOpen ? styles.active : ""}`}>
                <li>
@@ -65,11 +64,9 @@ export default function MainHeader() {
                      <NavLink href="/kontakt">{t("contact")}</NavLink>
                   </div>
                </li>
-               {windowWidth < 1024 ? (
-                  <li>
-                     <LocaleSwitch />
-                  </li>
-               ) : null}
+               <li>
+                  <LocaleSwitch />
+               </li>
             </ul>
             {/* HAMBURGER MENU */}
             <div className={styles.hamburger} onClick={() => setMenuOpen(!menuOpen)}>
