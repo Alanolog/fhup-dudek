@@ -27,8 +27,7 @@ export default function LocaleSwitch() {
    };
    return (
       <div className={styles.selectBox}>
-         <label style={{ opacity: 0.5, position: "absolute", top: "-100px" }}>{t("label")}</label>
-         <span>🌐</span>
+         <label>🌐</label>
          <select className={styles.select} value={selectedLocale} onChange={handleChange}>
             <option value="pl">{t("polish")}</option>
             <option value="en">{t("english")}</option>
