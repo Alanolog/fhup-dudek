@@ -5,6 +5,7 @@ import MainHeader from "@/components/layout/main-header";
 import Footer from "@/components/layout/footer";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto({
    weight: ["300", "400", "500", "700"],
@@ -38,6 +39,7 @@ export default async function RootLayout({
                <MainHeader />
                {children}
                <Footer />
+               <Analytics />
             </NextIntlClientProvider>
          </body>
       </html>
