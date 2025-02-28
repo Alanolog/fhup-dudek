@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import MainHeader from "@/components/layout/main-header";
 import Footer from "@/components/layout/footer";
 import { NextIntlClientProvider } from "next-intl";
