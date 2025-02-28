@@ -19,10 +19,8 @@ export default function LocaleSwitch() {
          const pathWithoutLocale = splittedPath.slice(1).join("/");
          const newPath = `/${newLocale}/${pathWithoutLocale}`;
          router.push(newPath);
-         router.refresh();
       } else {
          router.push(`/${newLocale}`);
-         router.refresh();
       }
    };
    return (
