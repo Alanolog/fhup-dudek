@@ -17,7 +17,7 @@ export const metadata: Metadata = {
    description:
       "F.H.U. Dudek oferuje kompleksowe usługi w zakresie instalacji chłodnictwa, klimatyzacji, wentylacji oraz pomp ciepła. Zapewniamy nowoczesne i energooszczędne rozwiązania dla firm oraz klientów indywidualnych. Skontaktuj się z nami, aby dowiedzieć się więcej!",
    keywords:
-      "chłodnictwo, instalacje chłodnicze, klimatyzacja, pompy ciepła, wentylacja, ogrzewanie, chłodnie, montaż klimatyzacji, serwis klimatyzacji, systemy chłodnicze, energooszczędne rozwiązania",
+      "chłodnictwo, instalacje chłodnicze, klimatyzacja, pompy ciepła, wentylacja, ogrzewanie, chłodnie, montaż klimatyzacji, serwis klimatyzacji, systemy chłodnicze, energooszczędne rozwiązania, Żory, Świerklany, Rybnik, Śląsk, Katowice, Jastrzębie zdrój, Wodzisław Śląski, Racibórz",
 };
 
 export default async function RootLayout({
