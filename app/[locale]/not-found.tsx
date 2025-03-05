@@ -1,6 +1,4 @@
-import LocaleRedirect from "@/components/layout/locale-redirect";
 import NavLink from "@/components/nav-link";
-import { routing } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 
 export default function NotFound() {
@@ -17,7 +15,6 @@ export default function NotFound() {
             height: "100vh",
          }}
       >
-         <LocaleRedirect defaultLocale={routing.defaultLocale} />
          <h2 style={{ color: "var(--foreground)", textAlign: "center" }}>{t("title")}</h2>
          <NavLink href="">
             <button
