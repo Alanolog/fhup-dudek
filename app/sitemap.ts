@@ -24,7 +24,6 @@ pages
       mappedPages.push(page[0]);
       mappedPages.push(page[1]);
    });
-console.log(mappedPages);
 export default function sitemap(): MetadataRoute.Sitemap {
    return [
       {
