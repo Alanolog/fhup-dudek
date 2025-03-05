@@ -31,6 +31,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
          lastModified: new Date(),
          priority: 1.0,
       },
+      {
+         url: siteUrlEn,
+         lastModified: new Date(),
+         priority: 1.0,
+      },
       ...mappedPages,
    ];
 }
