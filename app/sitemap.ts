@@ -1,30 +1,24 @@
 import type { MetadataRoute } from "next";
-const siteUrl = "https://www.klimatyzacja-dudek.pl";
+const siteUrlPl = "https://www.klimatyzacja-dudek.pl/pl";
+const siteUrlEn = "https://www.klimatyzacja-dudek.pl/pl";
 const pages = ["/wentylacja", "/klimatyzacja", "/kontakt", "/chlodnictwo", "/realizacje"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
    return [
       {
-         url: siteUrl,
+         url: siteUrlPl,
          lastModified: new Date(),
          priority: 1.0,
-         alternates: {
-            languages: {
-               en: `${siteUrl}/en`,
-               pl: `${siteUrl}/pl`,
-            },
-         },
       },
       ...pages.map((page) => ({
-         url: `${siteUrl}${page}`,
+         url: `${siteUrlPl}${page}`,
          lastModified: new Date(),
          priority: 0.8,
-         alternates: {
-            languages: {
-               en: `${siteUrl}/en${page}`,
-               pl: `${siteUrl}/pl${page}`,
-            },
-         },
+      })),
+      ...pages.map((page) => ({
+         url: `${siteUrlEn}${page}`,
+         lastModified: new Date(),
+         priority: 0.8,
       })),
    ];
 }
