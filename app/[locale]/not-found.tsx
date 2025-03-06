@@ -1,6 +1,17 @@
 import NavLink from "@/components/nav-link";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+   const { locale } = await params;
+   const t = await getTranslations({ locale, namespace: "Metadata" });
+
+   return {
+      title: t("notFound.title"),
+      description: t("notFound.description"),
+      keywords: t("notFound.keywords"),
+   };
+}
 export default function NotFound() {
    const t = useTranslations("NotFoundPage");
    return (

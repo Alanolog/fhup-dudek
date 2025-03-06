@@ -85,5 +85,42 @@
     },
     "LogosSection": {
         "logosInfo": "Dzięki szerokiemu wyborowi produktów renomowanych marek jesteśmy w stanie dobrać idealne rozwiązanie które sprosta twoim oczekiwaniom."
+    },
+    "Metadata": {
+        "kontakt": {
+            "title": "Kontakt - F.H.U. Dudek",
+            "description":"Skontaktuj się z nami! Jesteśmy do Twojej dyspozycji w zakresie instalacji i serwisu systemów chłodniczych, klimatyzacji, wentylacji oraz pomp ciepła. Znajdź nasze dane kontaktowe i formularz kontaktowy.",
+            "keywords":"kontakt, F.H.U. Dudek, instalacje chłodnicze, klimatyzacja, serwis, dane kontaktowe, Żory, Świerklany, Rybnik, Śląsk, Katowice"
+        },
+        "klimatyzacja": {
+         "title": "Klimatyzacja - F.H.U. Dudek",
+         "description": "Profesjonalny montaż, serwis i naprawa systemów klimatyzacji. Energooszczędne rozwiązania dla domów, biur i firm.",
+         "keywords": "klimatyzacja, montaż klimatyzacji, serwis klimatyzacji, energooszczędne systemy, Żory, Śląsk"
+      },
+      "chlodnictwo": {
+        "title": "Chłodnictwo - F.H.U. Dudek",
+        "description":"Oferujemy kompleksowe usługi w zakresie chłodnictwa – instalacje chłodnicze, serwis i naprawy. Zapewniamy nowoczesne i energooszczędne systemy dla firm i klientów indywidualnych.",
+        "keywords":"chłodnictwo, instalacje chłodnicze, serwis chłodniczy, naprawa chłodnictwa, systemy chłodnicze, chłodnie, Żory, Świerklany, Rybnik, Śląsk"
+      },
+      "realizacje": {
+        "title": "Realizacje - F.H.U. Dudek",
+        "description":"Przejrzyj nasze dotychczasowe realizacje w zakresie instalacji chłodnictwa, klimatyzacji, wentylacji oraz pomp ciepła. Poznaj przykłady naszych projektów i przekonaj się o jakości naszych usług.",
+        "keywords":"realizacje, portfolio, projekty, instalacje chłodnicze, klimatyzacja, wentylacja, pompy ciepła, chłodnictwo, przykłady projektów"
+      },
+      "wentylacja":{ 
+        "title": "Wentylacja - F.H.U. Dudek",
+        "description":"Projektujemy i montujemy systemy wentylacji dla domów, biur i firm. Skuteczne i energooszczędne rozwiązania poprawiające jakość powietrza w pomieszczeniach.",
+        "keywords":"wentylacja, systemy wentylacyjne, montaż wentylacji, serwis wentylacji, rekuperacja, instalacje wentylacyjne, Żory, Świerklany, Rybnik, Śląsk"
+      },
+      "layout": {
+        "title": "F.H.U. Dudek",
+        "description":"F.H.U. Dudek oferuje kompleksowe usługi w zakresie instalacji chłodnictwa, klimatyzacji, wentylacji oraz pomp ciepła. Zapewniamy nowoczesne i energooszczędne rozwiązania dla firm oraz klientów indywidualnych. Skontaktuj się z nami, aby dowiedzieć się więcej!",
+        "keywords":"chłodnictwo, instalacje chłodnicze, klimatyzacja, pompy ciepła, wentylacja, ogrzewanie, chłodnie, montaż klimatyzacji, serwis klimatyzacji, systemy chłodnicze, energooszczędne rozwiązania, Żory, Świerklany, Rybnik, Śląsk, Katowice, Jastrzębie zdrój, Wodzisław Śląski, Racibórz"
+      },
+      "notFound": {
+        "title": "Strona nie znaleziona - F.H.U. Dudek",
+        "description":"Przepraszamy, strona, której szukasz, nie została znaleziona. Sprawdź poprawność adresu lub wróć na stronę główną.",
+        "keywords":"strona nie znaleziona, błąd 404, brak strony, klimatyzacja, chłodnictwo, wentylacja, F.H.U. Dudek, Żory, Świerklany, Rybnik"
+      }
     }
 }

@@ -1,5 +1,18 @@
 import { useTranslations } from "next-intl";
 import styles from "./page.module.css";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+   const { locale } = await params;
+   const t = await getTranslations({ locale, namespace: "Metadata" });
+
+   return {
+      title: t("kontakt.title"),
+      description: t("kontakt.description"),
+      keywords: t("kontakt.keywords"),
+   };
+}
+
 export default function Kontakt() {
    const t = useTranslations("Footer");
    const t2 = useTranslations("Kontakt");

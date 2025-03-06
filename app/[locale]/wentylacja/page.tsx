@@ -3,6 +3,18 @@ import styles from "./page.module.css";
 import bg from "@/assets/backgrounds/wentylacja-bg.jpg";
 import mainPhoto from "@/assets/wentylacja_photos/1.jpg";
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+   const { locale } = await params;
+   const t = await getTranslations({ locale, namespace: "Metadata" });
+
+   return {
+      title: t("wentylacja.title"),
+      description: t("wentylacja.description"),
+      keywords: t("wentylacja.keywords"),
+   };
+}
 const mainStyles = {
    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(${bg.src})`,
    backgroundSize: "cover",
@@ -10,6 +22,7 @@ const mainStyles = {
    backgroundRepeat: "no-repeat",
    backgroundColor: "var(--background)",
 };
+
 export default function WentylacjaPage() {
    const t = useTranslations("WentylacjaPage");
    return (

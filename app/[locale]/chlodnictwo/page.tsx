@@ -5,6 +5,7 @@ import image1 from "@/assets/realizations/realizations_8.jpeg";
 import image2 from "@/assets/realizations/realizations_7.jpeg";
 import image3 from "@/assets/realizations/realizations_11.png";
 import bg from "@/assets/backgrounds/chlodnictwo-bg.jpg";
+import { getTranslations } from "next-intl/server";
 
 const mainStyles = {
    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(${bg.src})`,
@@ -13,6 +14,17 @@ const mainStyles = {
    backgroundRepeat: "no-repeat",
    backgroundColor: "var(--background)",
 };
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+   const { locale } = await params;
+   const t = await getTranslations({ locale, namespace: "Metadata" });
+
+   return {
+      title: t("chlodnictwo.title"),
+      description: t("chlodnictwo.description"),
+      keywords: t("chlodnictwo.keywords"),
+   };
+}
+
 export default function ChlodnictwoPage() {
    const t = useTranslations("ChlodnictwoPage");
    return (

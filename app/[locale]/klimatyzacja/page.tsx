@@ -1,4 +1,6 @@
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+
 import styles from "./page.module.css";
 import Image from "next/image";
 import image1 from "@/assets/klimatyzacja_photos/1.png";
@@ -16,6 +18,17 @@ const mainStyles = {
    backgroundRepeat: "no-repeat",
    backgroundColor: "var(--background)",
 };
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+   const { locale } = await params;
+   const t = await getTranslations({ locale, namespace: "Metadata" });
+
+   return {
+      title: t("klimatyzacja.title"),
+      description: t("klimatyzacja.description"),
+      keywords: t("klimatyzacja.keywords"),
+   };
+}
+
 export default function KlimatyzacjaPage() {
    const t = useTranslations("KlimatyzacjaPage");
    return (
