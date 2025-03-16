@@ -9,10 +9,11 @@ export default function LocaleRedirect({ defaultLocale }: { defaultLocale: strin
    useEffect(() => {
       const currentHost = window.location.host;
 
-      if (!currentHost.startsWith("www")) {
+      if (!currentHost.startsWith("www") && pathname.length === 0) {
+         router.replace(`https://www.${window.location.host}/${defaultLocale}`);
+      } else if (!currentHost.startsWith("www")) {
          router.replace(`https://www.${window.location.host}${pathname}`);
-      }
-      if (pathname.length === 0) {
+      } else if (pathname.length === 0) {
          router.replace(`/${defaultLocale}`);
       }
    }, [pathname, router, defaultLocale]);
