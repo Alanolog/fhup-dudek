@@ -24,6 +24,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
          url: `https://www.klimatyzacja-dudek.pl/${locale}`,
          siteName: "F.H.U. Dudek",
          type: "website",
+         images: [
+            {
+               url: "https://www.klimatyzacja-dudek.pl/og-image.jpg",
+               width: 800,
+               height: 420,
+               alt: "F.H.U. Dudek - Klimatyzacja, Chłodnictwo, Wentylacja, Pompy Ciepła",
+            },
+         ],
       },
       other: {
          "application/ld+json": JSON.stringify({
