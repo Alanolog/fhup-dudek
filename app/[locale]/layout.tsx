@@ -15,6 +15,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: t("layout.title"),
       description: t("layout.description"),
       keywords: t("layout.keywords"),
+      alternates: {
+         canonical: `https://www.klimatyzacja-dudek.pl/${locale === "pl" ? "pl" : locale}`,
+      },
       openGraph: {
          title: t("layout.title"),
          description: t("layout.description"),
