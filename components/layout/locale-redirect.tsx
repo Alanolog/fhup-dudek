@@ -7,12 +7,8 @@ export default function LocaleRedirect({ defaultLocale }: { defaultLocale: strin
    const pathname = usePathname();
 
    useEffect(() => {
-      if (!pathname.startsWith("/pl") && !pathname.startsWith("/en") && pathname !== "" && pathname !== "/") {
-         if (pathname.length === 0) {
-            router.replace(`/${defaultLocale}`);
-         } else if (!pathname.includes("/pl") && !pathname.includes("/en")) {
-            router.replace(`/${defaultLocale}/${pathname}`);
-         }
+      if (pathname.length === 0) {
+         router.replace(`/${defaultLocale}`);
       }
    }, [pathname, router, defaultLocale]);
 
