@@ -15,6 +15,33 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: t("layout.title"),
       description: t("layout.description"),
       keywords: t("layout.keywords"),
+      openGraph: {
+         title: t("layout.title"),
+         description: t("layout.description"),
+         url: `https://www.klimatyzacja-dudek.pl/${locale}`,
+         siteName: "F.H.U. Dudek",
+         type: "website",
+      },
+      other: {
+         "application/ld+json": JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HVACBusiness",
+            name: "F.H.U. Dudek",
+            description:
+               "F.H.U. Dudek – kompleksowe rozwiązania w zakresie klimatyzacji, chłodnictwa, wentylacji i pomp ciepła. Obsługa w Żorach, Rybniku, Katowicach, Śląsku.",
+            url: "https://www.klimatyzacja-dudek.pl/pl",
+            logo: "https://www.klimatyzacja-dudek.pl/logo.png",
+            address: {
+               "@type": "PostalAddress",
+               streetAddress: "Ul. Pogodna 9C",
+               addressLocality: "Świerklany",
+               postalCode: "44-266",
+               addressCountry: "PL",
+            },
+            telephone: "+48 609 132 785",
+            openingHours: "Mo-Fr 08:00-20:00",
+         }),
+      },
    };
 }
 const roboto = Roboto({

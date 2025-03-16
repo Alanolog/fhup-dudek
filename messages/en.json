@@ -88,39 +88,39 @@
     },
     "Metadata": {
         "kontakt": {
-            "title": "Contact - F.H.U. Dudek",
-            "description": "Contact us! We are at your disposal for the installation and service of refrigeration, air conditioning, ventilation, and heat pump systems. Find our contact details and contact form.",
-            "keywords": "contact, F.H.U. Dudek, refrigeration installations, air conditioning, service, contact details, Żory, Świerklany, Rybnik, Silesia, Katowice"
+          "title": "Contact - F.H.U. Dudek",
+          "description": "Contact F.H.U. Dudek – experts in installations, refrigeration service, air conditioning, ventilation and heat pumps in Żory, Świerklany, Rybnik and Katowice",
+          "keywords": "contact, F.H.U. Dudek, refrigeration installations, air conditioning, service, contact details, Żory, Świerklany, Rybnik, Silesia, Katowice"
         },
         "klimatyzacja": {
-            "title": "Air Conditioning - F.H.U. Dudek",
-            "description": "Professional installation, service, and repair of air conditioning systems. Energy-efficient solutions for homes, offices, and businesses.",
-            "keywords": "air conditioning, air conditioning installation, air conditioning service, energy-efficient systems, Żory, Silesia"
+          "title": "Air Conditioning - F.H.U. Dudek",
+          "description": "Air conditioning – professional installation, service and repair of energy-efficient systems for homes, offices and businesses in Silesia, Żory, Rybnik and Katowice",
+          "keywords": "air conditioning, air conditioning installation, air conditioning service, energy-efficient systems, Żory, Silesia"
         },
         "chlodnictwo": {
-            "title": "Refrigeration - F.H.U. Dudek",
-            "description": "We offer comprehensive refrigeration services – refrigeration installations, service, and repairs. We provide modern and energy-efficient systems for businesses and individual customers.",
-            "keywords": "refrigeration, refrigeration installations, refrigeration service, refrigeration repair, refrigeration systems, cold rooms, Żory, Świerklany, Rybnik, Silesia"
+          "title": "Refrigeration - F.H.U. Dudek",
+          "description": "Refrigeration – installations, service and repair of modern cold rooms and refrigeration systems for businesses and individual clients in Silesia, Żory, Rybnik",
+          "keywords": "refrigeration, refrigeration installations, refrigeration service, refrigeration repair, refrigeration systems, cold rooms, Żory, Świerklany, Rybnik, Silesia"
         },
         "realizacje": {
-            "title": "Projects - F.H.U. Dudek",
-            "description": "Browse our previous projects in refrigeration, air conditioning, ventilation, and heat pump installations. Discover examples of our work and see the quality of our services.",
-            "keywords": "projects, portfolio, installations, refrigeration installations, air conditioning, ventilation, heat pumps, refrigeration, project examples"
+          "title": "Projects - F.H.U. Dudek",
+          "description": "Projects – view our refrigeration, air conditioning, ventilation and heat pump projects that demonstrate the quality of F.H.U. Dudek's services",
+          "keywords": "projects, portfolio, projects, refrigeration installations, air conditioning, ventilation, heat pumps, refrigeration, project examples"
         },
         "wentylacja": {
-            "title": "Ventilation - F.H.U. Dudek",
-            "description": "We design and install ventilation systems for homes, offices, and businesses. Effective and energy-efficient solutions that improve indoor air quality.",
-            "keywords": "ventilation, ventilation systems, ventilation installation, ventilation service, recuperation, ventilation installations, Żory, Świerklany, Rybnik, Silesia"
+          "title": "Ventilation - F.H.U. Dudek",
+          "description": "Ventilation – design and installation of ventilation systems and heat recovery, ensuring fresh air in homes, offices and businesses in Silesia, Żory and Rybnik",
+          "keywords": "ventilation, ventilation systems, ventilation installation, ventilation service, heat recovery, ventilation installations, Żory, Świerklany, Rybnik, Silesia"
         },
         "layout": {
-            "title": "F.H.U. Dudek",
-            "description": "F.H.U. Dudek offers comprehensive services in refrigeration, air conditioning, ventilation, and heat pump installations. We provide modern and energy-efficient solutions for businesses and individual customers. Contact us to learn more!",
-            "keywords": "refrigeration, refrigeration installations, air conditioning, heat pumps, ventilation, heating, cold rooms, air conditioning installation, air conditioning service, refrigeration systems, energy-efficient solutions, Żory, Świerklany, Rybnik, Silesia, Katowice, Jastrzębie-Zdrój, Wodzisław Śląski, Racibórz"
+          "title": "F.H.U. Dudek",
+          "description": "F.H.U. Dudek – comprehensive solutions in refrigeration, air conditioning, ventilation and heat pumps. Serving in Żory, Rybnik, Katowice and Silesia",
+          "keywords": "refrigeration, refrigeration installations, air conditioning, heat pumps, ventilation, heating, cold rooms, air conditioning installation, air conditioning service, refrigeration systems, energy-efficient solutions, Żory, Świerklany, Rybnik, Silesia, Katowice, Jastrzębie Zdrój, Wodzisław Śląski, Racibórz"
         },
         "notFound": {
-            "title": "Page Not Found - F.H.U. Dudek",
-            "description": "Sorry, the page you are looking for could not be found. Check the URL or return to the homepage.",
-            "keywords": "page not found, 404 error, missing page, air conditioning, refrigeration, ventilation, F.H.U. Dudek, Żory, Świerklany, Rybnik"
+          "title": "Page Not Found - F.H.U. Dudek",
+          "description": "We are sorry, the page you are looking for was not found. Please check the address or return to the homepage.",
+          "keywords": "page not found, error 404, missing page, air conditioning, refrigeration, ventilation, F.H.U. Dudek, Żory, Świerklany, Rybnik"
         }
-    }
+      }
 }
