@@ -1,6 +1,7 @@
 import LocaleRedirect from "@/components/layout/locale-redirect";
 import Hero from "@/components/main-page/hero";
 import LogosSection from "@/components/main-page/logos-section";
+import Realizations from "@/components/main-page/realizations";
 import Service from "@/components/main-page/service";
 import Services from "@/components/main-page/services";
 import { routing } from "@/i18n/routing";
@@ -13,6 +14,7 @@ export default async function HomePage() {
          <Services />
          <Service />
          <LogosSection />
+         <Realizations />
       </main>
    );
 }
