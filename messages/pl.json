@@ -33,7 +33,16 @@
         "secondaryButton": "Skontaktuj się"
     },
     "Realizations": {
-        "title": "Realizacje"
+        "title": "Realizacje",
+        "realizationSmall1": "Klimatyzator ścienny w pokoju",
+        "realizationSmall2": "Dwa klimatyzatory zamontowane na czerwonej elewacji budynku.",
+        "realizationSmall3": "Przemysłowy nawiew powietrza",
+        "realizationSmall4": "System wentylacyjny na dachu",
+        "realizationSmall5": "Chłodnie przemysłowe z wentylatorami ",
+        "realizationSmall6": "Klimatyzatory zamontowane na zewnętrznej ścianie",
+        "realizationSmall7": "Chłodnia z wentylatorami na ścianie",
+        "realizationSmall8": "Sufitowa jednostka chłodnicza ",
+        "realizationSmall10": "Klimatyzator ścienny w salonie"
     },
     "RealizationsDetails": {
         "goback": "Powrót"
@@ -106,7 +115,7 @@
         "title": "Realizacje - F.H.U. Dudek",
         "description": "Realizacje – zobacz nasze projekty instalacji chłodnictwa, klimatyzacji, wentylacji i pomp ciepła, świadczące o jakości usług F.H.U. Dudek",
         "keywords":"realizacje, portfolio, projekty, instalacje chłodnicze, klimatyzacja, wentylacja, pompy ciepła, chłodnictwo, przykłady projektów"
-      },
+    },
       "wentylacja":{ 
         "title": "Wentylacja - F.H.U. Dudek",
         "description": "Wentylacja – projekt i montaż systemów wentylacyjnych oraz rekuperacji, gwarantujących świeże powietrze w domach, biurach i firmach na Śląsku, Żorach, Rybniku",

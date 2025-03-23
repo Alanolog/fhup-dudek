@@ -33,7 +33,16 @@
         "secondaryButton": "Contact Us"
     },
     "Realizations": {
-        "title": "Projects"
+        "title": "Projects",
+        "realizationSmall1": "Wall-mounted air conditioner in a room",
+        "realizationSmall2": "Two air conditioners installed on a red building facade.",
+        "realizationSmall3": "Industrial air supply unit",
+        "realizationSmall4": "Ventilation system on the roof",
+        "realizationSmall5": "Industrial cold rooms with fans",
+        "realizationSmall6": "Air conditioners installed on an exterior wall",
+        "realizationSmall7": "Cold room with wall-mounted fans",
+        "realizationSmall8": "Ceiling-mounted cooling unit",
+        "realizationSmall10": "Wall-mounted air conditioner in a living room"
     },
     "RealizationsDetails": {
         "goback": "Back"
